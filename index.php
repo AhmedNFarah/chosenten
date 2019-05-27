@@ -1,1 +1,95 @@
-<?php echo "I forgot how to echo I think, lol"; ?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChosenTen</title>
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="uk-section uk-section-default uk-section-small" id="main">
+    <div class="uk-container uk-container-large">
+      <div uk-grid uk-filter="target: .js-filter">
+        <div class="uk-width-1-1 uk-width-2-6@s uk-width-1-6@m">
+          <ul class="uk-list uk-list-nav uk-link-text uk-text-right">
+            <a class="uk-logo" href="/">
+              <img data-src="../img/logo.png" width="180px" alt="Nenomia" uk-img>
+            </a>
+            <hr class="uk-divider-small">
+            <li uk-filter-control><a class="uk-link-reset" href="#">All</a></li>
+            <li uk-filter-control="filter: .tag-white"><a class="uk-link-reset" href="#">T-Shirts</a></li>
+            <li uk-filter-control="filter: .tag-blue"><a class="uk-link-reset" href="#">Hoodies</a></li>
+            <li uk-filter-control="filter: .tag-black"><a class="uk-link-reset" href="#">Caps</a></li>
+          </ul>
+        </div>
+
+        <div class="uk-width-1-1 uk-width-4-6@s uk-width-5-6@m">
+          <ul class="js-filter uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid
+            uk-grid="parallax: 150">
+            <li class="tag-white">
+              <div class="uk-card uk-card-default uk-card-body">T-Shirts</div>
+            </li>
+            <li class="tag-blue">
+              <div class="uk-card uk-card-primary uk-card-body">Hoodies</div>
+            </li>
+            <li class="tag-white">
+              <div class="uk-card uk-card-default uk-card-body">T-Shirts</div>
+            </li>
+            <li class="tag-white">
+              <div class="uk-card uk-card-default uk-card-body">T-Shirts</div>
+            </li>
+            <li class="tag-black">
+              <div class="uk-card uk-card-secondary uk-card-body">Caps</div>
+            </li>
+            <li class="tag-black">
+              <div class="uk-card uk-card-secondary uk-card-body">Caps</div>
+            </li>
+            <li class="tag-blue">
+              <div class="uk-card uk-card-primary uk-card-body">Hoodies</div>
+            </li>
+            <li class="tag-black">
+              <div class="uk-card uk-card-secondary uk-card-body">Caps</div>
+            </li>
+            <li class="tag-blue">
+              <div class="uk-card uk-card-primary uk-card-body">Hoodies</div>
+            </li>
+            <li class="tag-white">
+              <div class="uk-card uk-card-default uk-card-body">T-Shirts</div>
+            </li>
+            <li class="tag-blue">
+              <div class="uk-card uk-card-primary uk-card-body">Hoodies</div>
+            </li>
+            <li class="tag-black">
+              <div class="uk-card uk-card-secondary uk-card-body">Caps</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> <!-- Main container -->
+  </div> <!-- Main section -->
+
+  <div class="uk-section uk-section-default uk-section-xsmall" id="footer">
+    <div class="uk-container uk-container-large">
+      <div class="uk-column-1-2">
+        <p class="uk-text-meta"><?php echo 'Copyright &copy; ChosenTen', date(" Y"); ?></p>
+        <p class="uk-text-right">
+          <a href="" class="uk-margin-small-right" uk-icon="whatsapp"></a>
+          <a href="" class="uk-margin-small-right" uk-icon="youtube"></a>
+          <a href="" uk-icon="facebook"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+  </div> <!-- Footer section -->
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>

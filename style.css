@@ -1,0 +1,46 @@
+/*
+Theme Name: Nenomia
+Theme URI: http://www.nenomia.com
+Description: Nenomia's official theme
+Version: 1.0
+Author: Ahmed Farah
+Author URI: http://www.nenomia.com
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+
+/* DEFAULTS */
+html {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Roboto";
+  opacity: 0;
+}
+
+#main {
+  flex: 1 0 auto;
+}
+
+#footer {
+  flex-shrink: 0;
+}
+
+a,
+li.uk-active {
+  color: #16A085;
+  outline: none;
+}
+
+/* Navigation */
+
+.uk-list-nav li {
+	font-family: Oswald;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
