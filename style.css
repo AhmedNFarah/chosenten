@@ -37,6 +37,10 @@ li.uk-active {
   outline: none;
 }
 
+.uk-icon:hover {
+  color: #16A085;
+}
+
 /* Navigation */
 
 .uk-list-nav li {
